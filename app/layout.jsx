@@ -1,11 +1,18 @@
+import "./global.css";
+
 import React from "react";
 import Sidebar from "./component/sidebar";
 
+import {personalData} from "../data/page-data";
+
 const layout = ({ children }) => {
+  console.log(personalData)
   return (
     <html lang="en">
-      {/* <Sidebar /> */}
-      <body>{children}</body>
+      <body>
+        <Sidebar data={personalData} />
+        {children}
+      </body>
     </html>
   );
 };
