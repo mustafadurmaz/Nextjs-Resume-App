@@ -1,5 +1,5 @@
 export const personalData = {
-	name: "Joe Doe",
+	name: "Mustafa Durmaz",
 	role: "Software Engineer",
 	education: [
 		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
