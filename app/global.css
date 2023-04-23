@@ -23,7 +23,7 @@
         @apply font-display;
     }
     html {
-        @apply font-serif;
+        font-family: Merriweather;
     }
 }
 

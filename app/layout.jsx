@@ -11,7 +11,7 @@ const layout = ({ children }) => {
     <html lang="en">
       <body className="flex flex-col sm:flex-row">
         <Sidebar data={personalData} />
-        <main className="grow-full p-16 w-full sm:basis-2/3 bg-green ml-auto">{children}</main>
+        <main className="grow-full p-16 w-full sm:basis-2/3  ml-auto">{children}</main>
       </body>
     </html>
   );
