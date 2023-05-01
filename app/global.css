@@ -38,3 +38,7 @@ section{
 main h2{
     @apply uppercase text-black;
 }
+
+.btn{
+    @apply w-1/2 h-12 text-black font-display uppercase text-xl
+}
