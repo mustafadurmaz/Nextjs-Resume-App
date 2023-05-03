@@ -22,20 +22,7 @@ const Skills = () => {
           {item} Skilss
         </button>
       ))}
-      {/* <button
-        type="button"
-        className="btn"
-        onClick={() => setActiveTab("soft")}
-      >
-        Soft Skills
-      </button>
-      <button
-        type="button"
-        className="btn"
-        onClick={() => setActiveTab("hard")}
-      >
-        Hard Skills
-      </button> */}
+
     </div>
   );
 };
