@@ -40,5 +40,5 @@ main h2{
 }
 
 .btn{
-    @apply w-1/2 h-12 text-black font-display uppercase text-xl
+    @apply w-1/2 h-12 text-black font-display uppercase text-xl px-4
 }
