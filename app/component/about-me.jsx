@@ -1,7 +1,7 @@
 import React from "react";
 import Skills from "./skills";
 
-const AboutMe = ({ data }) => {
+const AboutMe = ({ data, skills }) => {
   const { title, body } = data;
   return (
     <section>
@@ -9,7 +9,7 @@ const AboutMe = ({ data }) => {
       {body?.map((item,index) => (
         <p key={index} className="mb-6">{item}</p>
       ))}
-      <Skills />
+      <Skills data={skills} />
     </section>
   );
 };

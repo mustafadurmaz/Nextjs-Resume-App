@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const Skills = () => {
+const Skills = ({ data }) => {
   const [activeTab, setActiveTab] = useState("soft");
   const setBg = (active) => (activeTab === active ? "bg-yellow" : "bg-grey");
 
@@ -26,9 +26,12 @@ const Skills = () => {
     <div>
       {tabs}
       <ul className="flex flex-row flex-wrap content-start list-none">
-        <li>List</li>
-        <li>List</li>
-        <li>List</li>
+        {data[activeTab].map((item) => (
+          <li>
+            <span>{item.icon}</span>
+            {item.text}
+          </li>
+        ))}
       </ul>
     </div>
   );

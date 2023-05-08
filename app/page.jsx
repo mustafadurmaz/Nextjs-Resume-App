@@ -1,6 +1,6 @@
 import React from "react";
 import AboutMe from "./component/about-me";
-import {aboutMe} from "../data/page-data"
+import {aboutMe, skills} from "../data/page-data"
 
 export const metadata = {
   title: "Resume",
@@ -10,7 +10,7 @@ export const metadata = {
 const Page = () => {
   return (
     <div>
-      <AboutMe  data={aboutMe} />
+      <AboutMe  data={aboutMe} skills={skills} />
     </div>
     
   )
