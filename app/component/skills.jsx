@@ -25,7 +25,7 @@ const Skills = ({ data }) => {
   return (
     <div>
       {tabs}
-      <ul className="flex flex-row flex-wrap content-start list-none">
+      <ul className="flex flex-row flex-wrap content-start list-none py-4 gap-2">
         {data[activeTab].map((item) => (
           <li>
             <span>{item.icon}</span>
