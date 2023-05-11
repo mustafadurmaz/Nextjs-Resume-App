@@ -25,7 +25,7 @@ const Skills = ({ data }) => {
   return (
     <div>
       {tabs}
-      <ul className="flex flex-row flex-wrap content-start list-none py-4 gap-2">
+      <ul className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${activeTab ==="soft" ? "justify-start" : "justify-end" } `}>
         {data[activeTab].map((item, index) => (
           <li key={index} className="skill">
             <span>{item.icon}</span>
